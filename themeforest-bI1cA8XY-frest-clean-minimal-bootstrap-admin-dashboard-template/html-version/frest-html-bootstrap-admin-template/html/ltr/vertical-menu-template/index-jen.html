@@ -248,7 +248,7 @@
     <!-- END: Main Menu-->
 
     <!-- BEGIN: Content-->
-    <div class="app-content content">
+    <div class="app-content content  flex-container sk-layout-2-columns">
         <div class="content-overlay"></div>
         <div class="content-wrapper">
             <div class="content-header row">
@@ -256,7 +256,7 @@
             <div class="content-body">
                 <!-- Dashboard Ecommerce Starts -->
                 <section id="dashboard-ecommerce">
-
+                    <div class="row">
                         <!-- PROGRESS BAR Widget Starts -->
                         <div class="col-lg-12 col-xl-12 user-details-card">
                             <div class="card widget-user-details">
@@ -274,7 +274,7 @@
 
 
                                                 <!-- UPCOMING CLASS Widget Starts -->
-                                                <div class="col-lg-8 col-lg-8 user-details-card">
+                                                <div class="col-lg-8 col-lg-8 user-details-card style="width: 60%;">
                                                     <div class="card widget-user-details">
                                                         <div class="card-header">
                                                             <div class="card-title-details d-flex align-items-center">
@@ -286,7 +286,7 @@
                                                                     <div class="card-subtitle" style="color: var(--primary);">Code Responsive Design Elements</div>
                                                                 </div>
                                                             </div>
-                                                            <span><br>Unit 21 focuses on the process of prototyping, testing, and iterating. You have proven over the past few weeks that you can build webpages, but there's more to front-end development than coding. To practice iteration, some of this week's activities will build on each other. These activities represent iterations on a single prototype. This week's homework will be a report on your iteration process.</span>
+                                                            <span><br>Unit 21 focuses on the process of prototyping, testing, and iterating. You have proven over the past few weeks that you can build webpages, but there's more to front-end development than coding. To practice iteration, some of this week's activities will build on each other. These activities represent iterations on a single prototype. This week's homework will be a report on your iteration process. Lorem ipsum dolor sit amet, constempore ad minim veniam, qu laboris nisi ut aliquip ex ea commodo</span>
                                                         </div>
                                                         <div class="card-footer d-flex justify-content-between border-top">
                                                             <div class="d-flex">
@@ -304,83 +304,139 @@
 
                                                 <!-- VIDEO CARD Widget Starts -->
 
-                                                <div class="col-xl-4 col-md-6 col-sm-12">
-                                                    <div class="card" style="float-right";>
+                                                <div class="col-xl-4 col-md-4 col-sm-12 justify-content-end flex-row style="width: 30%" >
+                                                    <div class="card">
                                                         <div class="card-header">
-                                                            <h4 class="card-title"><strong>Missed Class:</strong> Session 20.3 Bootstrap</h4>
+                                                            <h4 class="card-title"><strong>Missed Class:</strong><br>20.3 Bootstrap (July 7)</h4>
                                                             
                                                         </div>
-                                                        <div class="embed-responsive embed-responsive-item embed-responsive-16by9">
+                                                        <div class="embed-responsive embed-responsive-item embed-responsive-16by9" style="max-height:144px; width:auto;">
                                                             <iframe src="https://www.youtube.com/embed/rJG2YHnqqnk"></iframe>
                                                         </div>
                                                         <div class="card-body">
-                                                            <p class="card-text">
-                                                                <strong>You were absent Wednesday, July 7.</strong> Watch this video to see what you missed, and click the links below to see recordings of other classes in this cohort.
-                                                            </p>
-                                                            <a href="javascript:void(0);" class="card-link">My Absences</a>
-                                                            <a href="javascript:void(0);" class="card-link">Class Recordings</a>
+                                                            <p class="card-text" style="margin-top:1px;">
+                                                                Watch the class recording to catch up on content you missed.
+                                                           <br>
+                                                            <a href="javascript:void(0);" class="card-link">More Videos</a>
+                                                        </p>
                                                         </div>
                                                     </div>
                                                 </div>
 
                                                 <!-- VIDEO CARD Widget Ends -->
 
+                                              <!-- UPCOMING ASSIGNMENT Widget Starts -->
+                                              <div class="col-sm-12 col-md-6 col-lg-6 col-xl-8 user-details-card style="width: 2rem;>
+                                                <div class="card widget-user-details">
+                                                    <div class="card-header">
+                                                        <div class="card-title-details d-flex align-items-center">
+                                                            <div class="avatar bg-rgba-primary p-25 mr-2 ml-0">
+                                                                <img class="img-fluid" src="../../../app-assets/images/profile/user-uploads/upcoming-homework.jpg" alt="img placeholder" height="70" width="70">
+                                                            </div>
+                                                            <div>
+                                                                <h5 style="color: var(--success);"><strong>UPCOMING ASSIGNMENT:</strong> Unit 21</h5>
+                                                                <div class="card-subtitle" style="color: var(--success);">Installing Analytics on a Prototype Site</div>
+                                                            </div>
+                                                        </div>
+                                                        <p><br><strong>Overview:</strong> In this activity, you will set up a Google Analytics 
+                                                            account and install it on a prototype site.
+                                                        </p>
+                                                        <p><strong>Instructions:</strong> Lorem ipsum dolor sit amet, constempore ad minim veniam, qu laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                        </p>
+                                                    </div>
+                                                    <div class="card-footer d-flex justify-content-between border-top">
+                                                        <div class="d-flex">
+                                                            <div class="d-inline-flex align-items-center mr-2">
+                                                                <small>Due by 11:59p.m.</small>
+                                                            </div>
+                                                        </div>
+                                                        <div>
+                                                            <button type="button" class="btn btn-primary glow">Submit</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- UPCOMING ASSIGNMENT Widget Ends -->
 
                         <!-- Timeline Starts -->
-                        <div class="col-xl-4 col-md-6 timline-card">
+                        <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 timline-card">
                             <div class="card ">
                                 <div class="card-header">
-                                    <h4 class="card-title">
-                                        <strong>This Week</strong> &nbsp;|&nbsp; 18 July - 24 July
+                                    <h4 class="card-title" >
+                                        <strong>This Week</strong><br>July 18 - July 24
                                     </h4>
                                 </div>
-                                <div class="card-body">
-                                    <ul class="timeline">
-                                        <li class="timeline-item timeline-icon-success active">
-                                            <div class="timeline-time">Mon 07/19/21</div>
-                                            <h6 class="timeline-title">Next Assignment</h6>
-                                            <p class="timeline-text">Unit 21 <a href="JavaScript:void(0);">Final Project</a></p>
+                                <div class="card-body" style="margin-top: 0rem;">
+                                    <ul class="timeline" style="margin-bottom: 0rem;">
+                                        <li class="timeline-item timeline-icon-secondary active" style="padding-top:.25rem" >
+                                            <div class="timeline-time">Tues 07/20</div>
+                                            <h6 class="timeline-title">Career Services</h6>
+                                            <span class="timeline-text" style="padding-bottom:0rem;">11-11:50 a.m. •&nbsp;<a href="JavaScript:void(0);">Zoom Meeting</a>
+                                            </span>
                                             <div class="timeline-content">
-                                                "Overview" •&nbsp;<a href="avaScript:void(0);">Submit</a>
+                                                <img src="../../../app-assets/images/icon/pdf.png" alt="document" height="30" width="auto" class="mr-50" style="margin-bottom:0rem;">myResume.pdf
                                             </div>
+
+                                            
                                         </li>
-                                        
-                                        <li class="timeline-item timeline-icon-secondary active">
-                                            <div class="timeline-time">Tues 07/20/21</div>
-                                            <h6 class="timeline-title">Career Services Appointment</h6>
-                                            <p class="timeline-text">11-11:50 a.m. •&nbsp;<a href="JavaScript:void(0);">Zoom link</a></p>
-                                            <div class="timeline-content">
-                                                <img src="../../../app-assets/images/icon/pdf.png" alt="document" height="36" width="27" class="mr-50">Resume_Milestone.pdf
-                                            </div>
-                                        </li>
-                                        <li class="timeline-item timeline-icon-warning active">
-                                            <div class="timeline-time">Weds. 07/21/21</div>
-                                            <h6 class="timeline-title">Tutoring Appointment</h6>
-                                            <p class="timeline-text">Noon-1 p.m. •&nbsp;<a href="JavaScript:void(0);">Zoom link</a></p>
+                                        <li class="timeline-item timeline-icon-warning active" style="padding-top: 0rem;">
+                                            <div class="timeline-time">Wed 07/21</div>
+                                            <h6 class="timeline-title">Tutoring </h6>
+                                            <span class="timeline-text" style="margin-bottom: none;">Noon-1 p.m. •&nbsp;<a href="JavaScript:void(0);">Zoom Meeting</a></span>
                                             <div class="timeline-content">
                                                 
                                             </div>
                                         </li>
-                                        <li class="timeline-item timeline-icon-info">
-                                            <div class="timeline-time">Thurs. 07/23/21</div>
-                                            <h6 class="timeline-title">Group 3 Meetup</h6>
-                                            <p class="timeline-text">10 - 10:30 a.m. for daily standup</p>
+                                        <li class="timeline-item timeline-icon-info" style="padding-top:0rem;">
+                                            <div class="timeline-time">Thurs 07/23</div>
+                                            <h6 class="timeline-title">My Group Meetup</h6>
+                                            <span class="timeline-text">10 - 10:30 a.m.  •&nbsp;<a href="JavaScript:void(0);">Zoom Meeting</a></span>
                                             <div class="timeline-content">
                                                 
                                             </div>
                                         </li>
                                     </ul>
-                                    <button class="btn btn-block btn-primary">View More</button>
+                                    <button class="btn btn-block btn-primary" >View More</button>
                                 </div>
                             </div>
                         </div>
                         <!-- Timeline Ends -->
 
+                                               <!-- UPCOMING WORKSHOP Widget Starts -->
 
-                                                <!-- Statistics Cards Starts -->
-                                <div class="col-12">
-                                    <div class="row">
-                                        <div class="col-sm-2 col-12 dashboard-users-secondary">
+                                               <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8 user-details-card">
+                                                <div class="card widget-user-details">
+                                                    <div class="card-header">
+                                                        <div class="card-title-details d-flex align-items-center">
+                                                            <div class="avatar bg-rgba-primary p-25 mr-2 ml-0">
+                                                                <img class="img-fluid" src="../../../app-assets/images/profile/user-uploads/upcoming-workshop.jpg" alt="img placeholder" height="70" width="70">
+                                                            </div>
+                                                            <div>
+                                                                <h5 style="color:#00CFDD;"><strong>UPCOMING WORKSHOP</strong> </h5>
+                                                                <div class="card-subtitle" style="color:#00CFDD;">Interview Prep</div>
+                                                            </div>
+                                                        </div>
+                                                        <span><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien ante, finibus in leo eget, auctor feugiat erat. Nullam non ct amet, consectetur adipiscing elit. Morbi sapien ante, finibus in leo eget, auctor feugiat erat. Nullam non consequat orci. Phasellus neque turpis, suscipit sit amet dictum vel, consequat non metus. Integer fringilla ipsum sodales, maximus augue quis, ultrices odio. Proin sed accumsan mi. Mauris a pretium libero.
+                                                        </span>
+                                                    </div>
+                                                    <div class="card-footer d-flex justify-content-between border-top">
+                                                        <div class="d-flex">
+                                                            <div class="d-inline-flex align-items-center mr-2">
+                                                                <small>4p.m. - 5p.m.</small>
+                                                            </div>
+                                                        </div>
+                                                        <div>
+                                                            <button type="button" class="btn btn-primary glow">Sign Up</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- UPCOMING WORKSHOP Widget Ends -->    
+                                            
+                            <!-- Statistics Cards Starts -->
+                                <div class="col-12 flex-sm-column">
+                                    <div class="row d-flex justify-content-end align-content-around" >
+                                        <div class="col-sm-2 col-lg-2 col-lg-2 col-12 dashboard-users-secondary " style="float:right;">
                                             <div class="card text-center">
                                                 <div class="card-body py-1">
                                                     <div class="badge-circle badge-circle-lg badge-circle-light-secondary mx-auto mb-50">
@@ -405,65 +461,16 @@
                                         
                                     </div>
                                 </div>
+                                                        <!-- Statistics Cards Ends -->
+                                            
 
-                                                <!-- UPCOMING ASSIGNMENT Widget Starts -->
-                                                <div class="col-lg-12 col-xl-8 user-details-card">
-                                                    <div class="card widget-user-details">
-                                                        <div class="card-header">
-                                                            <div class="card-title-details d-flex align-items-center">
-                                                                <div class="avatar bg-rgba-primary p-25 mr-2 ml-0">
-                                                                    <img class="img-fluid" src="../../../app-assets/images/profile/user-uploads/upcoming-homework.jpg" alt="img placeholder" height="70" width="70">
-                                                                </div>
-                                                                <div>
-                                                                    <h5 style="color: var(--success);"><strong>UPCOMING ASSIGNMENT:</strong> Unit 21.1</h5>
-                                                                    <div class="card-subtitle" style="color: var(--success);">Add Interactive Elements To Your Portfolio</div>
-                                                                </div>
-                                                            </div>
-                                                            <span><br>Unit 21 focuses on the process of prototyping, testing, and iterating. You have proven over the past few weeks that you can build webpages, but there's more to front-end development than coding. To practice iteration, some of this week's activities will build on each other. These activities represent iterations on a single prototype. This week's homework will be a report on your iteration process.</span>
-                                                        </div>
-                                                        <div class="card-footer d-flex justify-content-between border-top">
-                                                            <div class="d-flex">
-                                                                <div class="d-inline-flex align-items-center mr-2">
-                                                                    <small>Due by 11:59p.m.</small>
-                                                                </div>
-                                                            </div>
-                                                            <div>
-                                                                <button type="button" class="btn btn-primary glow">Submit</button>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <!-- UPCOMING ASSIGNMENT Widget Ends -->
 
-                                                <!-- UPCOMING WORKSHOP Widget Starts -->
-                                                <div class="col-lg-12 col-xl-8 user-details-card">
-                                                    <div class="card widget-user-details">
-                                                        <div class="card-header">
-                                                            <div class="card-title-details d-flex align-items-center">
-                                                                <div class="avatar bg-rgba-primary p-25 mr-2 ml-0">
-                                                                    <img class="img-fluid" src="../../../app-assets/images/profile/user-uploads/upcoming-workshop.jpg" alt="img placeholder" height="70" width="70">
-                                                                </div>
-                                                                <div>
-                                                                    <h5 style="color:#00CFDD;"><strong>UPCOMING WORKSHOP</strong> </h5>
-                                                                    <div class="card-subtitle" style="color:#00CFDD;">Interview Prep</div>
-                                                                </div>
-                                                            </div>
-                                                            <span><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien ante, finibus in leo eget, auctor feugiat erat. Nullam non ct amet, consectetur adipiscing elit. Morbi sapien ante, finibus in leo eget, auctor feugiat erat. Nullam non consequat orci. Phasellus neque turpis, suscipit sit amet dictum vel, consequat non metus. Integer fringilla ipsum sodales, maximus augue quis, ultrices odio. Proin sed accumsan mi. Mauris a pretium libero.
-                                                            </span>
-                                                        </div>
-                                                        <div class="card-footer d-flex justify-content-between border-top">
-                                                            <div class="d-flex">
-                                                                <div class="d-inline-flex align-items-center mr-2">
-                                                                    <small>4p.m. - 5p.m.</small>
-                                                                </div>
-                                                            </div>
-                                                            <div>
-                                                                <button type="button" class="btn btn-primary glow">Sign Up</button>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <!-- UPCOMING WORKSHOP Widget Ends -->
+ 
+
+         
+
+  
+  
                         
 
 
